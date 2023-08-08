@@ -22,3 +22,4 @@ public class App {
       activities[i] = scanner.next();
     }
   }
+}
