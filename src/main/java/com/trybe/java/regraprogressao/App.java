@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class App {
 
   /**
-   * hmm Metodo main.
+   * Metodo main.
    */
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
@@ -20,5 +20,5 @@ public class App {
     for (int i = 0; i < activityNumber; i++) {
       System.out.println("Digite o nome da atividade " + (i + 1) + ":");
       activities[i] = scanner.next();
+    }
   }
-}
