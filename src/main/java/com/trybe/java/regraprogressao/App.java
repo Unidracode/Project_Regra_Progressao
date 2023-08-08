@@ -16,15 +16,20 @@ public class App {
     int activityNumber = scanner.nextInt();
     scanner.nextLine();
 
-    String[] activities = new String[activityNumber];
-    int[] activityValue = new int[activityNumber];
+    String[] activity = new String[activityNumber];
+    int[] activityWeight = new int[activityNumber];
+    int[] activityGrade = new int[activityNumber];
 
     for (int i = 0; i < activityNumber; i++) {
       System.out.println("Digite o nome da atividade " + (i + 1) + ":");
-      activities[i] = scanner.nextLine();
+      activity[i] = scanner.nextLine();
 
       System.out.println("Digite o peso da Atividade " + (i + 1) + ":");
-      activityValue[i] = scanner.nextInt();
+      activityWeight[i] = scanner.nextInt();
+      scanner.nextLine();
+
+      System.out.println("Digite a nota obtida para " + activity[i] + ":");
+      activityGrade[i] = scanner.nextInt();
       scanner.nextLine();
     }
   }
