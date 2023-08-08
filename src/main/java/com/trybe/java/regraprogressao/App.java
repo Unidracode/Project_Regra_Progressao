@@ -23,7 +23,7 @@ public class App {
       System.out.println("Digite o nome da atividade " + (i + 1) + ":");
       activities[i] = scanner.nextLine();
 
-      System.out.printIn("Digite o peso da Atividade " + (i + 1) + ":");
+      System.out.println("Digite o peso da Atividade " + (i + 1) + ":");
       activityValue[i] = scanner.nextInt();
       scanner.nextLine();
     }
